@@ -100,5 +100,5 @@ def dnn_eva(data):
     F_1 = (2*precision*recall)/(precision+recall)
     print('Accuracy: %.4f, Precision: %.4f, Recall: %.4f, F_1: %.4f'
           %(acc, precision, recall, F_1) )
-    return acc, precision, recall, F_1
+    return TP, FN, FP, TN
     
